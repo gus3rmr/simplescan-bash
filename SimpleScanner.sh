@@ -36,8 +36,6 @@ function subdomain_scanner($domain $wordlist)
     echo "$discovered_subdomains" > "$subdomains_file_name"
     echo "File $subdomains_file_name has been created."
   fi
-
-  echo ""
 }
 
 subdomain_scanner
