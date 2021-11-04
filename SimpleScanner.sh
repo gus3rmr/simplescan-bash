@@ -28,12 +28,12 @@ function subdomain_scanner($domain $wordlist)
   if [[ -f "$subdomains_file_name" ]]
   then
     echo "Updating file..."
-    echo "$discovered_subdomains" > "$subdomains_file_name"
+    echo -e "$discovered_subdomains" > "$subdomains_file_name"
     echo "File $subdomains_file_name has been updated."
   else
     echo "Creating file..."
     touch "$subdomains_file_name"
-    echo "$discovered_subdomains" > "$subdomains_file_name"
+    echo -e "$discovered_subdomains" > "$subdomains_file_name"
     echo "File $subdomains_file_name has been created."
   fi
 }
