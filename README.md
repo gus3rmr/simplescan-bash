@@ -1,4 +1,4 @@
-#### This tool looks for valid subdomains for the given domain using the requests module in python, then it saves a .txt file with the list of subdomains found.
+#### This tool looks for valid subdomains for the given domain using the curl command, then it saves a .txt file with the list of subdomains found.
 
 
 #### Requirements:
