@@ -3,8 +3,7 @@ source bargs.sh "$@"
 function subdomain_scanner($domain $wordlist)
 
 {
-  echo ""
-  echo -e "-Target domain: ${domain}\n"
+  echo -e "\n-Target domain: ${domain}\n"
   discovered_subdomains=()
   subdomains_file_name=$domain'_subdomains.txt'
   input=$wordlist
