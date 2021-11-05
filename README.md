@@ -3,11 +3,12 @@
 
 #### Requirements:
 
-##### Bash/Shell
+###### Bash/Shell
+###### bargs.sh and bargs_vars files
 
 #### Usage:
 
-##### You will need to provide 2 arguments when executing the program: a domain and a subdomains dictionary in .txt format.
+###### You will need to provide 2 arguments when executing the program: a domain and a subdomains dictionary in .txt format.
 
 #### Example:
 ```bash
